@@ -13,7 +13,6 @@ const OurService = () => {
               <div key={i} className="">
                <ServiceCard />  
               </div>
-
             ))
             }
         </div>

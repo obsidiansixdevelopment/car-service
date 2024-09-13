@@ -3,9 +3,9 @@ import HeadSubhead from './head-subhead'
 
 const PricePlan = () => {
   return (
-      <div className="py-8 px-4 mx-auto max-w-screen-xl lg:my-10 lg:px-6">
+      <div className="px-4 mx-auto max-w-screen-xl lg:px-6">
           <HeadSubhead name={'Pricing Plan'} subname={'choose the Right for you'} />
-        <div className=" grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 xl:gap-10 lg:space-y-0 xl:px-0 px-2">
+        <div className=" grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 xl:gap-10 lg:space-y-0 xl:px-0 px-2 md:mt-20">
           {/* Pricing Card */}
           <div className="flex flex-col p-4 mx-auto max-w-lg text-start text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-white dark:text-[#222222]">
             <h3 className="md:mb-4 sm:mb-2 md:text-2xl text-xl font-semibold">Basic oil Change</h3>
