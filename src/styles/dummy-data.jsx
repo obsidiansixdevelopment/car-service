@@ -12,10 +12,10 @@ export const dummyData = {
             img:'/assests/02.png',
             name:'Maf Sensor cleaning',
         },
-        {
-            img:'/assests/02.png',
-            name:'Maf Sensor cleaning',
-        },
+        // {
+        //     img:'/assests/02.png',
+        //     name:'Maf Sensor cleaning',
+        // },
     ],
     HeroSectionData:[
         {
