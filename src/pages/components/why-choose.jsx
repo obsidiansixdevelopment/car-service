@@ -7,39 +7,39 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const WhyChoose = () => {
   return (
-    <div className="max-w-6xl mx-auto">
+    <div className="max-w-6xl mx-auto xl:px-0 px-6">
         <HeadSubhead name={'We’re here for whatever you need'} subname={'Why choose us ?'} />
-        <div className="grid grid-cols-2 gap-10 my-10">
-            <div className="relative h-auto w-full">
+        <div className="grid md:grid-cols-2 md:gap-10 sm:gap-8 gap-6 md:my-10 sm:my-6 ">
+            <div className="relative  md:h-auto sm:h-96 h-44 w-full">
                 <Image src="/assests/03.png" alt="" fill className="object-cover rounded-xl" />
             </div>
-            <div className="pt-10">
-                <div className="flex gap-6">
-                    <IoCall className="text-4xl bg-white text-primary-main p-2 rounded-lg" />
+            <div className="md:pt-10">
+                <div className="flex md:gap-6 sm:gap-4 gap-2">
+                    <IoCall className="text-4xl sm:bg-white text-primary-main md:p-2 rounded-lg" />
                     <div>
-                        <p className="text-2xl font-semibold">Customer Support</p>
-                        <p className="text-[#858587] mt-1.5">Aliquam erat volutpat. Integer malesuada turpis id fringilla suscipit. Maecenas ultrices.</p>
+                        <p className="md:text-2xl sm:text-xl text-base font-semibold">Customer Support</p>
+                        <p className="text-[#858587] mt-1.5 md:text-base sm:text-sm text-xs">Aliquam erat volutpat. Integer malesuada turpis id fringilla suscipit. Maecenas ultrices.</p>
                     </div>
                 </div>
-                <div className="flex gap-6 my-10">
-                    <IoMdPricetags className="text-4xl bg-white text-primary-main p-2 rounded-lg" />
+                <div className="flex md:gap-6 sm:gap-4 gap-2 md:my-10 sm:my-6 my-4">
+                    <IoMdPricetags className="text-4xl sm:bg-white text-primary-main md:p-2 rounded-lg" />
                     <div>
-                        <p className="text-2xl font-semibold">Many Location</p>
-                        <p className="text-[#858587] mt-1.5">Aliquam erat volutpat. Integer malesuada turpis id fringilla suscipit. Maecenas ultrices.</p>
+                        <p className="md:text-2xl sm:text-xl text-base font-semibold">Many Location</p>
+                        <p className="text-[#858587] mt-1.5 md:text-base sm:text-sm text-xs">Aliquam erat volutpat. Integer malesuada turpis id fringilla suscipit. Maecenas ultrices.</p>
                     </div>
                 </div>
-                <div className="flex gap-6 my-10">
-                    <FaLocationDot className="text-4xl bg-white text-primary-main p-2 rounded-lg" />
+                <div className="flex md:gap-6 sm:gap-4 gap-2  md:my-10 sm:my-6 my-4">
+                    <FaLocationDot className="text-4xl sm:bg-white text-primary-main md:p-2 rounded-lg" />
                     <div>
-                        <p className="text-2xl font-semibold">Best Price Guarantted</p>
-                        <p className="text-[#858587] mt-1.5">Aliquam erat volutpat. Integer malesuada turpis id fringilla suscipit. Maecenas ultrices.</p>
+                        <p className="md:text-2xl sm:text-xl text-base font-semibold">Best Price Guarantted</p>
+                        <p className="text-[#858587] mt-1.5 md:text-base sm:text-sm text-xs">Aliquam erat volutpat. Integer malesuada turpis id fringilla suscipit. Maecenas ultrices.</p>
                     </div>
                 </div>
-                <div className="flex gap-6 my-10">
-                    <FaLocationDot className="text-4xl bg-white text-primary-main p-2 rounded-lg" />
+                <div className="flex md:gap-6 sm:gap-4 gap-2  md:my-10 sm:my-6">
+                    <FaLocationDot className="text-4xl sm:bg-white text-primary-main md:p-2 rounded-lg" />
                     <div>
-                        <p className="text-2xl font-semibold">Best Price Guarantted</p>
-                        <p className="text-[#858587] mt-1.5">Aliquam erat volutpat. Integer malesuada turpis id fringilla suscipit. Maecenas ultrices.</p>
+                        <p className="md:text-2xl sm:text-xl text-base font-semibold">Best Price Guarantted</p>
+                        <p className="text-[#858587] mt-1.5 md:text-base sm:text-sm text-xs">Aliquam erat volutpat. Integer malesuada turpis id fringilla suscipit. Maecenas ultrices.</p>
                     </div>
                 </div>
             </div>

@@ -29,17 +29,17 @@ const index = () => {
             {
                 arr.map((ele,i) => (
                 <div key={i} className=" p-4 mb-4 pt-8 border-t border-t-[#B8B8B8]">
-                    <div className="flex gap-12 items-center">
+                    <div className="md:flex gap-12 items-center">
                     <img
                         src="/assests/10.png"
                         alt="Coffee beans being processed"
-                        className="w-60 h-60 object-cover rounded-lg mr-4"
+                        className="md:w-60 w-full lg:h-60 md:h-52 sm:h-44 h-40 object-cover rounded-lg mr-4"
                     />
                     <div>
-                        <h2 className="text-[2.5rem] font-medium mb-2">
+                        <h2 className="lg:text-[2.5rem] md:text-3xl sm:text-2xl text-xl font-medium mb-2">
                         Visited Doesoen Sirap Coffee, The Producer of Robusta in Central Java
                         </h2>
-                        <p className="text-gray-400 text-xl">4 Min • August 19, 2022</p>
+                        <p className="text-gray-400 md:text-xl sm:text-base text-sm">4 Min • August 19, 2022</p>
                     </div>
                     </div>
                 </div>

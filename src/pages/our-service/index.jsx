@@ -33,7 +33,7 @@ const page = () => {
   return (
     <Layout>
      <ServiceHeroSection name={'What we offer'} subname={'Our Services'} img={"/assests/06.png"}/>
-     <div className="max-w-6xl mx-auto grid grid-cols-3 gap-8 my-20">
+     <div className="max-w-6xl mx-auto grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-8 sm:gap-6 gap-4 md:my-20 sm:my-8 my-4 xl:px-0 px-6">
       {
         arr.map((ele,i) => (
           <div key={i}>

@@ -33,7 +33,7 @@ const Navbar = () => {
   ];
   return (
     <nav className="bg-white dark:bg-[#222222] fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto md:p-6 p-4">
         <Link
           href="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
@@ -41,13 +41,13 @@ const Navbar = () => {
           <img
             src="/assests/logo.png"
             alt="BestAutoRepair Logo"
-            className="h-10 w-auto"
+            className="md:h-10 sm:h-8 h-6 w-auto"
           />
         </Link>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <button
             type="button"
-            className="text-white bg-primary-main hover:bg-primary-main focus:ring-4 focus:outline-none focus:ring-primary-main font-medium rounded-lg text-base px-4 py-2 text-center dark:bg-primary-main dark:hover:bg-primary-main dark:focus:ring-primary-main"
+            className="text-white bg-primary-main hover:bg-primary-main focus:ring-4 focus:outline-none focus:ring-primary-main font-medium rounded-lg text-base px-4 py-2 text-center dark:bg-primary-main dark:hover:bg-primary-main dark:focus:ring-primary-main sm:inline hidden"
           >
             Make an Appointment
           </button>
@@ -85,7 +85,7 @@ const Navbar = () => {
               <li key={i}>
                 <Link
                   href={ele.link}
-                  className={`block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary-main md:p-0 md:dark:hover:text-primary-main dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-medium text-lg ${path === ele.link ? "text-primary-main" : "dark:text-white"}`}
+                  className={`block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary-main md:p-0 md:dark:hover:text-primary-main dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-semibold text-lg ${path === ele.link ? "text-primary-main" : "dark:text-white"}`}
                 >
                   {ele.name}
                 </Link>

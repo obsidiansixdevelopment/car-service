@@ -1,15 +1,21 @@
 import React from 'react'
 import HeadSubhead from './head-subhead'
 import ServiceCard from './cards/service-card'
+import { dummyData } from '@/styles/dummy-data'
 
 const OurService = () => {
   return (
-    <div className="mb-10 mt-40 max-w-6xl mx-auto">
+    <div className="md:mb-10 md:mt-40 xl:max-w-6xl xl:px-0 px-6 mx-auto">
         <HeadSubhead name={'What we offer'} subname={'Our Services'} />
-        <div className="grid grid-cols-3 gap-14 my-9">
-            <ServiceCard />
-            <ServiceCard />
-            <ServiceCard />
+        <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-14 sm:gap-10 gap-6 md:my-9 sm:my-6 my-4">
+           {
+            dummyData.OurService.map((ele,i) => (
+              <div key={i} className="">
+               <ServiceCard />  
+              </div>
+
+            ))
+            }
         </div>
         <div className="flex justify-center">
             <button className="text-primary-main border-2 p-2 px-4 rounded border-primary-main">View all Services</button>
