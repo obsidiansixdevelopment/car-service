@@ -12,7 +12,7 @@ const OurService = () => {
            {
             dummyData.OurService.slice(0,3).map((ele,i) => (
               <div key={i} className="">
-               <ServiceCard  />  
+               <ServiceCard img={ele.img} name={ele.name} data={ele.data} />  
               </div>
             ))
             }
