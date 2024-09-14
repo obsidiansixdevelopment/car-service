@@ -17,29 +17,36 @@ const WhyChoose = () => {
                 <div className="flex md:gap-6 sm:gap-4 gap-2">
                     <IoCall className="text-4xl sm:bg-white text-primary-main md:p-2 rounded-lg" />
                     <div>
-                        <p className="md:text-2xl sm:text-xl text-base font-semibold">Customer Support</p>
-                        <p className="text-[#858587] mt-1.5 md:text-base sm:text-sm text-xs">Aliquam erat volutpat. Integer malesuada turpis id fringilla suscipit. Maecenas ultrices.</p>
+                        <p className="md:text-2xl sm:text-xl text-base font-semibold">Convenient Door-to-Door Service</p>
+                        <p className="text-[#858587] mt-1.5 md:text-base sm:text-sm text-xs">We pick up, service, and deliver your car to your home or office—no hassle, no stress.
+                        </p>
                     </div>
                 </div>
                 <div className="flex md:gap-6 sm:gap-4 gap-2 md:my-10 sm:my-6 my-4">
                     <IoMdPricetags className="text-4xl sm:bg-white text-primary-main md:p-2 rounded-lg" />
                     <div>
-                        <p className="md:text-2xl sm:text-xl text-base font-semibold">Many Location</p>
-                        <p className="text-[#858587] mt-1.5 md:text-base sm:text-sm text-xs">Aliquam erat volutpat. Integer malesuada turpis id fringilla suscipit. Maecenas ultrices.</p>
+                        <p className="md:text-2xl sm:text-xl text-base font-semibold">Expert Technicians You Can Trust
+                        </p>
+                        <p className="text-[#858587] mt-1.5 md:text-base sm:text-sm text-xs">Our certified technicians provide top-quality repairs and maintenance, ensuring your car is in expert hands.
+                        </p>
                     </div>
                 </div>
                 <div className="flex md:gap-6 sm:gap-4 gap-2  md:my-10 sm:my-6 my-4">
                     <FaLocationDot className="text-4xl sm:bg-white text-primary-main md:p-2 rounded-lg" />
                     <div>
-                        <p className="md:text-2xl sm:text-xl text-base font-semibold">Best Price Guarantted</p>
-                        <p className="text-[#858587] mt-1.5 md:text-base sm:text-sm text-xs">Aliquam erat volutpat. Integer malesuada turpis id fringilla suscipit. Maecenas ultrices.</p>
+                        <p className="md:text-2xl sm:text-xl text-base font-semibold">Complete Car Care Solutions
+                        </p>
+                        <p className="text-[#858587] mt-1.5 md:text-base sm:text-sm text-xs">From catalytic converter cleaning to car renewal, we offer comprehensive services to keep your car running smoothly.
+                        </p>
                     </div>
                 </div>
                 <div className="flex md:gap-6 sm:gap-4 gap-2  md:my-10 sm:my-6">
                     <FaLocationDot className="text-4xl sm:bg-white text-primary-main md:p-2 rounded-lg" />
                     <div>
-                        <p className="md:text-2xl sm:text-xl text-base font-semibold">Best Price Guarantted</p>
-                        <p className="text-[#858587] mt-1.5 md:text-base sm:text-sm text-xs">Aliquam erat volutpat. Integer malesuada turpis id fringilla suscipit. Maecenas ultrices.</p>
+                        <p className="md:text-2xl sm:text-xl text-base font-semibold">Customer Satisfaction Guaranteed
+                        </p>
+                        <p className="text-[#858587] mt-1.5 md:text-base sm:text-sm text-xs">We’re committed to providing exceptional service, backed by glowing 5-star reviews from our happy customers.
+                        </p>
                     </div>
                 </div>
             </div>

@@ -30,21 +30,22 @@ const ContactUs = () => {
                     <IoCall className="text-4xl bg-primary-main text-white p-2 rounded-lg" />
                     <div>
                         <p className="md:text-2xl sm:text-xl text-lg font-semibold">Phone</p>
-                        <p className="text-[#858587] mt-1.5">+91 7925846989 , +91 7925846989</p>
+                        <p className="text-[#858587] mt-1.5">+971 522336618 , 055 1199 065</p>
                     </div>
                 </div>
                 <div className="flex md:gap-6 gap-4 md:my-10 sm:my-8 my-6">
                     <IoMdPricetags className="text-4xl bg-primary-main text-white p-2 rounded-lg" />
                     <div>
                         <p className="md:text-2xl sm:text-xl text-lg font-semibold">Email</p>
-                        <p className="text-[#858587] mt-1.5">infoliquam@gmail.com</p>
+                        <p className="text-[#858587] mt-1.5">Albayadhgmc@gmail.com
+                        </p>
                     </div>
                 </div>
                 <div className="flex md:gap-6 gap-4 md:my-10 sm:my-8 my-6">
                     <FaLocationDot className="text-4xl bg-primary-main text-white p-2  rounded-lg max-md:w-16" />
                     <div>
                         <p className="md:text-2xl sm:text-xl text-lg font-semibold"> Location</p>
-                        <p className="text-[#858587] mt-1.5">Aliquam erat volutpat. Integer malesuada turpis id fringilla suscipit. Maecenas ultrices.</p>
+                        <p className="text-[#858587] mt-1.5">Al bayadh garage New industrial area 2 - Ajman-UAE</p>
                     </div>
                 </div>
             </div>

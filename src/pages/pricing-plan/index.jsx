@@ -68,7 +68,7 @@ const index = () => {
             </div>
             <div className="mt-6 text-center">
                 <button className="bg-red-500 text-white py-2 px-8 font-medium rounded-md">
-                Make an Appointment
+            Get Quote
                 </button>
             </div>
             </div>

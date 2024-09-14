@@ -10,20 +10,12 @@ const AboutusComp = () => {
           About us
         </h2>
         <h6 className="font-[500] text-[22px] max-md:text-[18px] max-md:text-center text-[#FFF] mb-[24px] max-md:mb-[14px] leading-[150%] max-md:px-[20px]">
-          We're just a call away from turning your property into a
-          flawless&nbsp;10&nbsp;out&nbsp;of&nbsp;10.
+        We're just a call away from turning your property into a flawless 10 out of 10.
         </h6>
         <p className="text-[#858587] text-[16px] max-md:text-[12px] max-md:text-justify  font-[400] leading-[28px] max-md:leading-[22px] max-md:px-[10px] ">
-          By partnering with us, you've already taken a powerful step forward. We
-          treat your property as our own, with a relentless commitment to scaling
-          your business—guaranteed! Our dedicated team works around the clock, all
-          year long, to continuously uncover new opportunities to elevate your
-          success, season&nbsp;after&nbsp;season. By partnering with us, you've
-          already taken a powerful step forward. We treat your property as our own,
-          with a relentless commitment to scaling your business—guaranteed! Our
-          dedicated team works around the clock, all year long, to continuously
-          uncover new opportunities to elevate your success,
-          season&nbsp;after&nbsp;season.
+        We offer top-notch auto repair and maintenance services. Our skilled technicians use the latest technology to ensure your vehicle receives the best care. We provide reliable, efficient, and convenient solutions, including catalytic converter cleaning, radiator flushing, fuel injector cleaning, and door-to-door car renewal.
+We pride ourselves on our customer-focused approach. We offer hassle-free services, including free pickup and delivery for car renewals. Trust us to handle your vehicle with the utmost care.
+Whether you need routine maintenance or complex repairs, we're here to provide reliable solutions and exceptional service. Experience the difference of a service that puts you and your vehicle first.
         </p>
       </div>
       <div className="right md:w-[50%] h-full max-md:pt-[20px]">
