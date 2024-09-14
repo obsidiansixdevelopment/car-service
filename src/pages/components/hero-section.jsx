@@ -44,8 +44,8 @@ const HeroSection = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className="md:absolute -bottom-0  w-full z-20 max-md:mt-4">
-        <div className=" bottom-0  bg-[#222222] rounded-md w-full shadow-[0px_7px_16px_0px_rgba(255,255,255,0.05)] p-7 max-w-6xl mx-auto grid md:grid-cols-6 sm:grid-cols-4 grid-cols-2 md:gap-16 sm:gap-8 gap-4 justify-items-center">
+      <div className="md:absolute bottom-4  w-full z-10 max-md:mt-4">
+        <div className=" bottom-0 bg-[#222222] rounded-md w-full shadow-[0px_7px_16px_0px_rgba(255,255,255,0.05)] p-7 max-w-6xl mx-auto grid md:grid-cols-6 sm:grid-cols-4 grid-cols-2 md:gap-16 sm:gap-8 gap-4 justify-items-center">
           <div >
             <svg
               xmlns="http://www.w3.org/2000/svg"
