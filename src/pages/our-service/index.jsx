@@ -12,7 +12,7 @@ const page = () => {
       {
         dummyData.OurService.map((ele,i) => (
           <div key={i}>
-            <ServiceCard ele={ele} />
+            <ServiceCard  />
           </div>
         ))
       }
