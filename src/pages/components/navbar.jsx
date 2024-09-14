@@ -47,12 +47,12 @@ const Navbar = () => {
         </Link>
         
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          <button
-            type="button"
+          <Link 
+            href='/contact-us'
             className="text-white bg-primary-main hover:bg-primary-main focus:ring-4 focus:outline-none focus:ring-primary-main font-medium rounded-lg text-base px-4 py-2 text-center dark:bg-primary-main dark:hover:bg-primary-main dark:focus:ring-primary-main md:inline hidden"
           >
             Make an Appointment
-          </button>
+          </Link>
           
         <div className="md:hidden">
           <DrawerComponent />

@@ -7,6 +7,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 import { Navigation } from "swiper/modules";
+import Link from "next/link";
+import AppointPopup from "./appoint-popup";
 
 // Import Swiper styles
 
@@ -29,7 +31,7 @@ const HeroSection = () => {
             />
             <div className="h-full w-full bg-black/30 absolute top-0 left-0" />
             <div className="absolute top-20 left-[12vw] z-10 md:mt-16 mt-10 ">
-              <div className="xl:text-[3.5rem] md:text-4xl sm:text-3xl text-xl text-white font-semibold max-w-2xl md:leading-[4rem]">
+              <div className="xl:text-[3.5rem] md:text-4xl sm:text-3xl text-xl text-white font-semibold max-w-2xl md:leading-[4rem]  md:mb-10 sm:mb-8 mb-2">
                 {ele.val1}
                 <span className="text-primary-main">
                   {" "}
@@ -37,9 +39,11 @@ const HeroSection = () => {
                 </span>{" "}
                 {ele.val3}
               </div>
-              <button className="text-primary-main font-medium md:text-base sm:text-sm text-xs border border-primary-main p-2 px-4 rounded md:mt-10 sm:mt-8 mt-2">
+              {/* <Link href="/contact-us" className="text-primary-main font-medium md:text-base sm:text-sm text-xs border border-primary-main p-2 px-4 rounded">
                 Make an Appointment
-              </button>
+              </Link> */}
+              
+          <AppointPopup />
             </div>
           </SwiperSlide>
         ))}

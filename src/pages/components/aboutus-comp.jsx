@@ -31,14 +31,14 @@ const AboutusComp = () => {
           <div className="box1 md:w-[167.284px] max-md:w-[80px] md:h-[167.284px] max-md:h-[80px] rounded-[8.364px] shrink-0">
             <img
               className="md:w-[167.284px] max-md:w-80px] md:h-[167.284px] max-md:h-[80px] rounded-[8.364px] shrink-0 object-cover"
-              src="/assests/03.png"
+              src="/assests/16.png"
               alt=""
             />
           </div>
           <div className="box2 md:w-[167.284px] max-md:w-[80px] md:h-[250.926px] max-md:h-[140px] bg-black rounded-[8.364px] shrink-0">
             <img
               className=" md:w-[167.284px] max-md:w-[80px] md:h-[250.926px] max-md:h-[140px] rounded-[8.364px] shrink-0 object-cover"
-              src="/assests/04.png"
+              src="/assests/17.png"
               alt=""
             />
           </div>
@@ -47,21 +47,21 @@ const AboutusComp = () => {
           <div className="box3 md:w-[200.741px] max-md:w-[100px] md:h-[133.827px] max-md:h-[80px] bg-black rounded-[8.364px] shrink-0">
             <img
               className="md:w-[200.741px] max-md:w-[100px] md:h-[133.827px] max-md:h-[80px] rounded-[8.364px] shrink-0 object-cover"
-              src="/assests/05.png"
+              src="/assests/18.png"
               alt=""
             />
           </div>
           <div className="box4 md:w-[167.284px] max-md:w-[80px] md:h-[250.926px] max-md:h-[140px] bg-black rounded-[8.364px] shrink-0">
             <img
               className="md:w-[167.284px] max-md:w-[80px] md:h-[250.926px] max-md:h-[140px] rounded-[8.364px] shrink-0 object-cover"
-              src="/assests/06.png"
+              src="/assests/19.png"
               alt=""
             />
           </div>
           <div className="box5 md:w-[200.741px] max-md:w-[100px] md:h-[133.827px] max-md:h-[80px] bg-black rounded-[8.364px] shrink-0">
             <img
               className="md:w-[200.741px] max-md:w-[100px] md:h-[133.827px] max-md:h-[80px] rounded-[8.364px] shrink-0 object-cover"
-              src="/assests/07.png"
+              src="/assests/20.png"
               alt=""
             />
           </div>
