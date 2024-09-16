@@ -3,9 +3,11 @@ import Layout from '../components/layout'
 import ServiceHeroSection from '../components/service-hero-section'
 import { dummyData } from '@/styles/dummy-data'
 import Link from 'next/link'
+import { RouteContext } from "@/context/context";
+import { useContext } from 'react';
 
-const index = () => {
-    const arr = ["","","","","",""]
+const PricingPlan = () => {
+    const { PopupOpen } = useContext(RouteContext);
   return (
     <Layout>
         <ServiceHeroSection name={'Pricing Plan'} subname={'choose the Right for you'} img={"/assests/07.png"} />
@@ -27,9 +29,9 @@ const index = () => {
                         }
                 </div>
                 <div className="mt-6 text-center">
-                    <Link href="/contact-us" className="bg-red-500 text-white py-2 px-8 font-medium rounded-md">
+                    <div onClick={PopupOpen} className="cursor-pointer bg-red-500 text-white py-2 px-8 font-medium rounded-md">
                     Make an Appointment
-                    </Link>
+                    </div>
                 </div>
                 </div>
                     ))
@@ -71,4 +73,4 @@ const index = () => {
   )
 }
 
-export default index
+export default PricingPlan

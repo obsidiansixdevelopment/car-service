@@ -7,12 +7,13 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 import { Navigation } from "swiper/modules";
-import Link from "next/link";
-import AppointPopup from "./appoint-popup";
+import { RouteContext } from "@/context/context";
+import { useContext } from 'react';
 
 // Import Swiper styles
 
 const HeroSection = () => {
+  const { PopupOpen } = useContext(RouteContext);
   
   return (
     <>
@@ -39,11 +40,12 @@ const HeroSection = () => {
                 </span>{" "}
                 {ele.val3}
               </div>
-              {/* <Link href="/contact-us" className="text-primary-main font-medium md:text-base sm:text-sm text-xs border border-primary-main p-2 px-4 rounded">
+               <button
+                className="btn text-primary-main font-medium md:text-base sm:text-sm text-xs border border-primary-main p-2 px-4 rounded"
+                onClick={PopupOpen}
+            >
                 Make an Appointment
-              </Link> */}
-              
-          <AppointPopup />
+            </button>
             </div>
           </SwiperSlide>
         ))}

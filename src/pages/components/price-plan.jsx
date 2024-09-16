@@ -1,9 +1,12 @@
-import React from 'react'
+import React , { useContext } from 'react'
 import HeadSubhead from './head-subhead'
 import Link from 'next/link'
 import { TiTick } from "react-icons/ti";
+import { RouteContext } from '@/context/context';
 
 const PricePlan = () => {
+  const { PopupOpen } = useContext(RouteContext);
+  
   return (
       <div className="px-4 mx-auto max-w-screen-xl lg:px-6">
           <HeadSubhead name={'Pricing Plan'} subname={'choose the Right for you'} />
@@ -46,12 +49,13 @@ const PricePlan = () => {
                 </span>
               </li>
             </ul>
-            <Link
-              href="/contact-us"
-              className="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-xs md:px-5 sm:px-3 px-2 md:py-2.5 py-1.5 text-center dark:text-white  dark:focus:ring-primary-900 bg-primary-main md:text-sm"
+            <div
+              onClick={PopupOpen}
+              
+              className="text-white cursor-pointer bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-xs md:px-5 sm:px-3 px-2 md:py-2.5 py-1.5 text-center dark:text-white  dark:focus:ring-primary-900 bg-primary-main md:text-sm"
             >
             Make an Appointment
-            </Link>
+            </div>
           </div>
           <div className="relative">
             <div className="md:absolute bottom-10 flex flex-col p-4 mx-auto max-w-lg text-start text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-primary-main dark:text-white ">
@@ -91,12 +95,12 @@ const PricePlan = () => {
                     </span>
                 </li>
                 </ul>
-                <Link
-                href="/contact-us"
-                className="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-xs md:px-5 sm:px-3 px-2 md:py-2.5 py-1.5 text-center dark:text-primary-main  dark:focus:ring-primary-900 bg-white md:text-sm"
+                <div
+                onClick={PopupOpen}
+                className="cursor-pointer text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-xs md:px-5 sm:px-3 px-2 md:py-2.5 py-1.5 text-center dark:text-primary-main  dark:focus:ring-primary-900 bg-white md:text-sm"
                 >
                 Make an Appointment
-                </Link>
+                </div>
             </div>
 
           </div>
@@ -137,12 +141,12 @@ const PricePlan = () => {
                 </span>
               </li>
             </ul>
-            <Link
-              href="/contact-us"
-              className="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-xs md:px-5 sm:px-3 px-2 md:py-2.5 py-1.5 text-center dark:text-white  dark:focus:ring-primary-900 bg-primary-main md:text-sm"
+            <div
+                onClick={PopupOpen}
+              className="text-white cursor-pointer bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-xs md:px-5 sm:px-3 px-2 md:py-2.5 py-1.5 text-center dark:text-white  dark:focus:ring-primary-900 bg-primary-main md:text-sm"
             >
             Make an Appointment
-            </Link>
+            </div>
           </div>
         </div>
       </div>
